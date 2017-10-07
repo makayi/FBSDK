@@ -1,0 +1,28 @@
+{
+	"name": "posterific",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"prepare": "patch-package",
+		"start": "node node_modules/react-native/local-cli/cli.js start"
+	},
+	"dependencies": {
+		"native-base": "2.3.2",
+		"prop-types": "15.6.0",
+		"react": "16.0.0-alpha.12",
+		"react-native": "0.48.4",
+		"react-native-deprecated-custom-components": "0.1.1",
+		"react-native-fbsdk": "^0.6.1",
+		"react-native-image-crop-picker": "0.16.1",
+		"react-native-modal": "4.0.0",
+		"react-native-photo-grid": "0.0.2",
+		"react-native-storage": "0.2.2",
+		"react-native-view-shot": "2.1.0",
+		"yarn": "^1.1.0",
+		"yarn-install": "^0.5.1"
+	},
+	"devDependencies": {
+		"babel-preset-react-native": "4.0.0",
+		"patch-package": "3.4.2"
+	}
+}

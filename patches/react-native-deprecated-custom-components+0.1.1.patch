@@ -1,0 +1,17 @@
+diff --git a/node_modules/react-native-deprecated-custom-components/src/NavigatorBreadcrumbNavigationBar.js b/node_modules/react-native-deprecated-custom-components/src/NavigatorBreadcrumbNavigationBar.js
+index 704216e..09efbbe 100644
+--- a/node_modules/react-native-deprecated-custom-components/src/NavigatorBreadcrumbNavigationBar.js
++++ b/node_modules/react-native-deprecated-custom-components/src/NavigatorBreadcrumbNavigationBar.js
+@@ -93,9 +93,9 @@ class NavigatorBreadcrumbNavigationBar extends React.Component {
+       titleContentForRoute: PropTypes.func,
+       iconForRoute: PropTypes.func,
+     }),
+-    navState: React.PropTypes.shape({
+-      routeStack: React.PropTypes.arrayOf(React.PropTypes.object),
+-      presentedIndex: React.PropTypes.number,
++    navState: PropTypes.shape({
++      routeStack: PropTypes.arrayOf(PropTypes.object),
++      presentedIndex: PropTypes.number,
+     }),
+     style: ViewPropTypes.style,
+   };
